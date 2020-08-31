@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* 폰트 ---------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* reset ---------------------------------------- */
+html,body{position:relative;overflow:hidden;width:100%;height:100%;padding:0;margin:0;font-family:'Roboto', 'Noto Sans KR', 'Dotum','돋움',sans-serif;}
+*{margin:0;padding:0;vertical-align:top;border:0;outline-color:orange;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+body{font-size:100%;line-height:1;word-break:break-all;word-break:keep-all;-webkit-text-size-adjust:none;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li{list-style:none}
+blockquote, q{quotes:none}
+blockquote:before, blockquote:after,q:before, q:after{content:'';content:none}
+h1,h2,h3,h4,h5{padding:0;margin:0;}
+p{margin:0;padding:0;word-wrap:break-word;word-break:keep-all;}
+a, a:hover, a:focus{text-decoration:none;}
+fieldset,img{border:0 none}
+img{position:relative;border:0;display:block;}
+input,select,textarea,button{vertical-align:middle}
+input{appearance:none;-webkit-appearance:none;-webkit-border-radius:0;border-radius:0;font-family:inherit;font-size:inherit;line-height:inherit;}
+input::-ms-clear{display:none}
+input::-webkit-contacts-auto-fill-button{visibility:hidden;display:none !important;pointer-events:none;position:absolute;right:0}
+button{border:0 none;border-radius:0;background-color:transparent;cursor:pointer;font-family:'Roboto', 'Noto Sans KR', 'Dotum','돋움',sans-serif;}
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
+legend,caption{height:0;padding:0;font-size:0;text-indent:-9999px;}
+table{border-spacing:0;border-collapse:collapse;}
+
+
+/* width */
+::-webkit-scrollbar{width:6px;}
+/* Track */
+::-webkit-scrollbar-track{background:rgba(0,0,0,0.05);}
+/* Handle */
+::-webkit-scrollbar-thumb{background:rgba(0,0,0,0.5);}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{background:#555;}

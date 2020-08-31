@@ -1,0 +1,20 @@
+{
+    "travel_insure": {
+        "enable": true,
+        "path": "../travel-insure-corp",
+        "port": 8080,
+        "encoding": "UTF-8"
+    },
+    "Factory-ON": {
+        "enable": true,
+        "path": "../factory-on",
+        "port": 3000,
+        "encoding": "UTF-8"
+    },
+    "Portfoliod": {
+        "enable": true,
+        "path": "../portfoliod",
+        "port": 8000,
+        "encoding": "UTF-8"
+    }
+}
